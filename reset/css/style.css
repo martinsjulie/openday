@@ -1,0 +1,79 @@
+html {
+  display: block;
+  background-image: url(../medias/carre_fond4.png);
+  background-color: #3D3D3D;
+  height: 100%;
+}
+body, .container-fluid, .row-fluid {
+  height: 100%;
+}
+#menu {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 80px;
+  /*padding: 17%;*/
+}
+.fixed {
+  position: fixed;
+}
+#formation .col-md-4 {
+  opacity: 0.70;
+}
+#formation .col-md-4:hover {
+  opacity: 1;
+}
+#formation .col-md-4 h5 , p , #works .col-md-4 h5 , p {
+  font-size: 0.7em;
+  color: white;
+  margin: 0;
+  padding: 3.5% 3.5% 3.5% 3.5%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#formation .col-md-4 h5, #works .col-md-4 h5 {
+  font-size: 0.95em;
+  font-weight: 900;
+}
+.onglets {
+  padding: 15% 5% 15% 15%;
+  opacity: 0.5;
+}
+.onglets a {
+  color: white;
+  text-decoration: none;
+}
+.onglets:hover {
+  opacity: 1;
+}
+.onglets a img{
+    width: 14%;
+    /*float: right;*/
+}
+.maphoto {
+  max-width: 40%;
+  height: auto;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.txt-valeur {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.6em;
+  margin: :5% 5% 5% 0%;
+  padding: 2.5% 2.5% 2.5% 2.5%;
+}
+.row-fluid #works {
+  /*height: 90%;*/
+  /*padding: 20%;*/
+}
+.col-md-4 {
+  /*background-color: pink;*/
+}
+.col-md-6 {
+  /*background-color: red;
+  width: 50%;*/
+}
+.col-md-8 {
+  /*background-color: green;*/
+  /*width: auto;*/
+}
